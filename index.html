@@ -1,9 +1,105 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Hello world</title>
-</head>
-<body>
-<h1>angadh verma</h1>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <nav id="nav">
+        <div class="nav-center"> 
+          <div class="nav-header">
+            <img src="./javaScript-logo.png" class="logo" alt="logo" />
+              <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button> 
+          </div>
+        <div class="links-container ">
+          <ul class="links">
+         <li>
+          <a href="#home" class="scroll-link" style="color:black">home</a>
+          </li>
+         <li>
+         <a href="#about" class="scroll-link" style="color:black">about</a>
+         </li>
+         <li>
+         <a href="#services" class="scroll-link" style="color:black">interests</a>
+         </li>
+         <li>
+         <a href="#tours" class="scroll-link " style="color:black">projects</a>
+         </li>
+         </ul>
+
+        </div>
+        </div>
+
+      </nav>
+
+       <div class="banner">
+         <div class="container">
+           <h1> Personal project</h1>
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+             cillum dolore eu fugiat nulla pariatur. 
+           <a href="#tours" class="scroll-link btn btn-white">explore projects</a>
+         </div>
+       </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="title"> <h2>ABOUT <span>ME</span></h2> </div><br>
+      <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+     <section id="services" class="section">
+      <div class="title"> <h2><span>INTERESTS</span></h2> </div>
+      <div>
+            <center><ul class="hobbies-list">
+              <li class="hobbies-item"> <img src="./music.jpg" class="hobbies-pics" /></li>
+              <li class="hobbies-item"> <img src="./badminton.jpg" class="hobbies-pics"/></li>
+              <li class="hobbies-item"> <img src="./gaming.jpg" class="hobbies-pics"/></li>
+            </ul></center>
+
+        </div>
+    </section>
+
+     <section id="tours" class="section">
+      <div class="title"> <h2>FEATURED <span>PROJECTS</span></h2> </div>
+      <div><ul>
+        <li class="project-item"><a href="../color-switcher/color-switcher.html">Color Switcher<img src="project ss.jpg" class="project-pics"/></a></li>
+        <li class="project-item"><a href="">Calculator<img src="calculator.png" class="project-pics"/></a></li>
+        <li class="project-item"><a href="">To-Do List<img src="todo.png" class="project-pics"/></a></li>
+        <li class="project-item" id="soon">more adding soon</li>
+      </ul></div>
+    </section>
+
+  <footer class="section">
+    <p><span id="date"> </span></p>
+  </footer>
+  <a href="#home" class="scroll-link top-link"> &#10514</a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
 </html>
